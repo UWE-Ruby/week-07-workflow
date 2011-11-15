@@ -43,6 +43,8 @@ Review the [Workflow Gem](https://github.com/geekq/workflow) documentation.
 1. Fork and clone this repository to make your own, called **yourname**-week-07-workflow.
 1. Add yet another workflow state and a spec for it. Or create your own workflow.
 1. Is it a one way workflow, or can it be rolled back? You decide.
+1. Make sure you have an acceptible level of [test coverage](https://github.com/colszowka/simplecov). Your test coverage percentage is your grade. Just kidding.
+  
 1. Tag it complete and push it back to github
 
 ## Advanced Exploration

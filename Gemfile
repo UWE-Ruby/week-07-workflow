@@ -6,4 +6,5 @@ group :development, :test do
   gem "rspec"
   gem "guard"
   gem "growl" # mac os x only
+  gem "simplecov"
 end

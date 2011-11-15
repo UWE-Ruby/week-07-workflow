@@ -1,5 +1,7 @@
 require "rubygems"
 require "bundler/setup"
+require 'simplecov'
+SimpleCov.start
 require File.expand_path(File.dirname(__FILE__) + '/../lib/technology.rb')
 
 describe "states" do
