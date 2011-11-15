@@ -9,7 +9,7 @@
 * Advanced Exploration
  
 
-## Developing and, Testing Workflows 
+## Developing and Testing Workflows 
 
 What is workflow?
 -----------------
@@ -32,6 +32,8 @@ transition to another state and potentially causes code to be executed
 from, and we can cause transitions to fail (guards), and we can hook in
 to every transition that occurs ever for whatever reason we can come up
 with.
+
+<img src="http://github.com/UWE-Ruby/week-07-workflow/raw/master/technology-activity.png" />
 
 
 ## Exercise
