@@ -38,7 +38,7 @@ with.
 
 Review the [Workflow Gem](https://github.com/geekq/workflow) documentation.
 
-1. Fork and clone this repository to make your own, called **yourname**-week-06-sinatra .
+1. Fork and clone this repository to make your own, called **yourname**-week-07-workflow.
 1. Add yet another workflow state and a spec for it. Or create your own workflow.
 1. Is it a one way workflow, or can it be rolled back? You decide.
 1. Tag it complete and push it back to github
@@ -48,5 +48,6 @@ Review the [Workflow Gem](https://github.com/geekq/workflow) documentation.
 1. Make some methods that do other things besides puts to standard out.
 1. For example, send an email https://github.com/mikel/mail
 1. or Wrap a sinatra web service around your Class. Test the web service (of course!)
+1. re-implement using [AASM](https://www.ruby-toolbox.com/projects/aasm) instead of Workflow gem
 
 
