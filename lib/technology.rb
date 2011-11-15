@@ -21,22 +21,21 @@ class Technology
     state :retired
   end
  
-  private 
   def approve
-    puts 'approved'
+    puts 'technology is approved'
     # send an email or log to a file
   end
 
-  def unapprove
-    puts 'unapproved'
+  def unapprove!
+    puts 'technology is unapproved'
   end
   
-  def publish
-    puts 'published'
+  def publish!
+    puts 'technology is published'
   end
   
-  def retire
-    puts 'retired'
+  def retire!
+    puts 'technology is retired'
   end
   
 end
