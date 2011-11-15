@@ -29,6 +29,12 @@ describe "states" do
       subject.unapprove!
       subject.current_state.to_s.should == "unapproved"
     end
+    it "available events should be publish and unapprove" do
+      subject.approve!
+      subject.current_state.events.should have_key(:publish)
+      subject.current_state.events.should have_key(:unapprove)
+      subject.current_state.events.keys.should == [:publish,:unapprove]
+    end
   end
 
   context "when published" do
