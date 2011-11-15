@@ -26,15 +26,15 @@ class Technology
     # send an email or log to a file
   end
 
-  def unapprove!
+  def unapprove
     puts 'technology is unapproved'
   end
   
-  def publish!
+  def publish
     puts 'technology is published'
   end
   
-  def retire!
+  def retire
     puts 'technology is retired'
   end
   
